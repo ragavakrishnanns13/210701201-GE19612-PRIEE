@@ -1,0 +1,132 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+  margin: 0;
+  margin-bottom: 150px;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Andika";
+}
+#bg {
+  background-image: url(https://source.unsplash.com/featured/?men,fashion,sneakers);
+  /*https://images.unsplash.com/photo-1549942686-486aa99d2223*/
+  background-repeat: no-repeat;
+  min-height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+#banner_content {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  position: absolute;
+  margin-top: 50px;
+  background-color: #141414;
+  min-height: 150px;
+  padding-top: 40px;
+  width: 100%;
+
+  bottom: 0;
+}
+.container a {
+  color: black;
+}
+.container a:hover {
+  color: grey;
+}
+#size {
+  max-height: 200px;
+}
+
+#TimedBarParent {
+  width: 100%;
+  background-color: white;
+  height: 80px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: sticky;
+}
+
+#TimedBarOutline {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  position: relative;
+  border: 2px solid black;
+}
+#TimedBar {
+  width: 0%;
+  background-color: green;
+  height: 100%;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.inner-outline {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.inner-outline > * {
+  flex: 1;
+  height: 100%;
+  margin-left: 2%;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid black;
+}
+
+.inner-outline > *:first-child {
+  margin-left: 0;
+}
+.inner-outline > *:last-child {
+  border-right: 0px solid black;
+}
+
+#highlighter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 90;
+  background-color: rgba(128, 128, 256, 0.5);
+  border: 3px solid black;
+}
+
+.anchor {
+  height: 0;
+  width: 0;
+}
+
+#clickZone {
+  width: 40px;
+  aspect-ratio: 1;
+  background-color: rgb(36, 236, 36);
+  position: absolute;
+  right: 1%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
